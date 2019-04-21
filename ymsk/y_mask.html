@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>y_mask</title>
+    <link rel="stylesheet" href="y_mask.css">
+</head>
+<body>
+
+<button id="addbtn">添加图片</button>
+
+
+<div id="mask">
+    <div id="mask-content">
+        <label for="mask-pic" class="mask-upload">
+            上传图片
+        </label>
+        <input type="file" name="pic" id="mask-pic">
+        <img class="mask-picpng" src="./a.png" width="150" alt="上传的图片">
+
+        <button id="q">确定</button>
+
+    </div>
+</div>
+<script src="asd.js"></script>
+<script src="y_mask.js"></script>
+<script>
+    let y_mask = new yMask('#addbtn','#mask')
+</script>
+</body>
+</html>
